@@ -1,4 +1,4 @@
-module.exports = function toReadable (number) {
+function toReadable(number) {
     let str = number.toString();
     let i = 0;
     let newStr = '';
@@ -384,3 +384,5 @@ module.exports = function toReadable (number) {
 
     };
 };
+
+console.log(toReadable(3));
